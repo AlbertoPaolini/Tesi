@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+
+\title{Esempio LaTeX}
+\author{Alberto Paolini}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage
+\input{LatticeTheory.tex}
+\newpage
+\input{MonteCarlo.tex}
+\newpage
+\input{Error.tex}
+\newpage
+\input{Results.tex}
+\newpage
+
+            
+   
+    
+  
+    
+    
+    \bibliographystyle{plain} % Stile della bibliografia (es. plain, unsrt, alpha)
+    \bibliography{Bibliografia} % Nome del file .bib senza estensione
+            
+
+\end{document}
